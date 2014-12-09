@@ -1,0 +1,14 @@
+#container{
+	background-color: black;
+}
+
+.square 
+{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    
+    height: 65px;
+    width: 65px;
+    background-color: #F0F0D0;
+}
