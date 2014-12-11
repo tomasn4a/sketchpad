@@ -1,14 +1,33 @@
-#container{
-	background-color: black;
+body {
+	background-color: #F0F0FF;
 }
 
-.square 
-{
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
-    
-    height: 65px;
-    width: 65px;
-    background-color: #F0F0D0;
+button{
+	display: block;
+	margin: 10px auto;
+	float: top;
 }
+
+#buttons{
+	display: block;
+	margin: 10px auto;
+}
+	
+#container{
+	background-color: black;
+	width:640px;
+	height: 640px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+	border: 1px dashed;
+	overflow: hidden;
+}
+
+.square{
+    display: inline-block;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
